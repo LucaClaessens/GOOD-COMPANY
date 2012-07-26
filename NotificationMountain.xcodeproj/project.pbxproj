@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C038F9B415C1A3BB00F67320 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C038F9B315C1A3BB00F67320 /* Cocoa.framework */; };
+		C038F9BE15C1A3BB00F67320 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C038F9BC15C1A3BB00F67320 /* InfoPlist.strings */; };
+		C038F9C015C1A3BB00F67320 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C038F9BF15C1A3BB00F67320 /* main.m */; };
+		C038F9C415C1A3BB00F67320 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C038F9C215C1A3BB00F67320 /* Credits.rtf */; };
+		C038F9C715C1A3BB00F67320 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C038F9C615C1A3BB00F67320 /* AppDelegate.m */; };
+		C038F9CA15C1A3BC00F67320 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C038F9C815C1A3BC00F67320 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C038F9AF15C1A3BB00F67320 /* NotificationMountain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotificationMountain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C038F9B315C1A3BB00F67320 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C038F9B615C1A3BB00F67320 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C038F9B715C1A3BB00F67320 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C038F9B815C1A3BB00F67320 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C038F9BB15C1A3BB00F67320 /* NotificationMountain-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NotificationMountain-Info.plist"; sourceTree = "<group>"; };
+		C038F9BD15C1A3BB00F67320 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C038F9BF15C1A3BB00F67320 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C038F9C115C1A3BB00F67320 /* NotificationMountain-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NotificationMountain-Prefix.pch"; sourceTree = "<group>"; };
+		C038F9C315C1A3BB00F67320 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C038F9C515C1A3BB00F67320 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C038F9C615C1A3BB00F67320 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C038F9C915C1A3BC00F67320 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C038F9AC15C1A3BB00F67320 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C038F9B415C1A3BB00F67320 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C038F9A415C1A3BB00F67320 = {
+			isa = PBXGroup;
+			children = (
+				C038F9B915C1A3BB00F67320 /* NotificationMountain */,
+				C038F9B215C1A3BB00F67320 /* Frameworks */,
+				C038F9B015C1A3BB00F67320 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C038F9B015C1A3BB00F67320 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C038F9AF15C1A3BB00F67320 /* NotificationMountain.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C038F9B215C1A3BB00F67320 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C038F9B315C1A3BB00F67320 /* Cocoa.framework */,
+				C038F9B515C1A3BB00F67320 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C038F9B515C1A3BB00F67320 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C038F9B615C1A3BB00F67320 /* AppKit.framework */,
+				C038F9B715C1A3BB00F67320 /* CoreData.framework */,
+				C038F9B815C1A3BB00F67320 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C038F9B915C1A3BB00F67320 /* NotificationMountain */ = {
+			isa = PBXGroup;
+			children = (
+				C038F9C515C1A3BB00F67320 /* AppDelegate.h */,
+				C038F9C615C1A3BB00F67320 /* AppDelegate.m */,
+				C038F9C815C1A3BC00F67320 /* MainMenu.xib */,
+				C038F9BA15C1A3BB00F67320 /* Supporting Files */,
+			);
+			path = NotificationMountain;
+			sourceTree = "<group>";
+		};
+		C038F9BA15C1A3BB00F67320 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C038F9BB15C1A3BB00F67320 /* NotificationMountain-Info.plist */,
+				C038F9BC15C1A3BB00F67320 /* InfoPlist.strings */,
+				C038F9BF15C1A3BB00F67320 /* main.m */,
+				C038F9C115C1A3BB00F67320 /* NotificationMountain-Prefix.pch */,
+				C038F9C215C1A3BB00F67320 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C038F9AE15C1A3BB00F67320 /* NotificationMountain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C038F9CD15C1A3BC00F67320 /* Build configuration list for PBXNativeTarget "NotificationMountain" */;
+			buildPhases = (
+				C038F9AB15C1A3BB00F67320 /* Sources */,
+				C038F9AC15C1A3BB00F67320 /* Frameworks */,
+				C038F9AD15C1A3BB00F67320 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationMountain;
+			productName = NotificationMountain;
+			productReference = C038F9AF15C1A3BB00F67320 /* NotificationMountain.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C038F9A615C1A3BB00F67320 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Gabriel Pierannunzi";
+			};
+			buildConfigurationList = C038F9A915C1A3BB00F67320 /* Build configuration list for PBXProject "NotificationMountain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C038F9A415C1A3BB00F67320;
+			productRefGroup = C038F9B015C1A3BB00F67320 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C038F9AE15C1A3BB00F67320 /* NotificationMountain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C038F9AD15C1A3BB00F67320 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C038F9BE15C1A3BB00F67320 /* InfoPlist.strings in Resources */,
+				C038F9C415C1A3BB00F67320 /* Credits.rtf in Resources */,
+				C038F9CA15C1A3BC00F67320 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C038F9AB15C1A3BB00F67320 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C038F9C015C1A3BB00F67320 /* main.m in Sources */,
+				C038F9C715C1A3BB00F67320 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C038F9BC15C1A3BB00F67320 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C038F9BD15C1A3BB00F67320 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C038F9C215C1A3BB00F67320 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C038F9C315C1A3BB00F67320 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C038F9C815C1A3BC00F67320 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C038F9C915C1A3BC00F67320 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C038F9CB15C1A3BC00F67320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C038F9CC15C1A3BC00F67320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C038F9CE15C1A3BC00F67320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NotificationMountain/NotificationMountain-Prefix.pch";
+				INFOPLIST_FILE = "NotificationMountain/NotificationMountain-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C038F9CF15C1A3BC00F67320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NotificationMountain/NotificationMountain-Prefix.pch";
+				INFOPLIST_FILE = "NotificationMountain/NotificationMountain-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C038F9A915C1A3BB00F67320 /* Build configuration list for PBXProject "NotificationMountain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C038F9CB15C1A3BC00F67320 /* Debug */,
+				C038F9CC15C1A3BC00F67320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C038F9CD15C1A3BC00F67320 /* Build configuration list for PBXNativeTarget "NotificationMountain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C038F9CE15C1A3BC00F67320 /* Debug */,
+				C038F9CF15C1A3BC00F67320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C038F9A615C1A3BB00F67320 /* Project object */;
+}
