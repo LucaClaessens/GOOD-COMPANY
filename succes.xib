@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6254"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" animationBehavior="default" id="QvC-M9-y7g">
+            <rect key="contentRect" x="401" y="329" width="444" height="129"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1280" height="778"/>
+            <view key="contentView" id="EiT-Mj-1SZ">
+                <rect key="frame" x="0.0" y="0.0" width="444" height="129"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qwf-57-WgK">
+                        <rect key="frame" x="133" y="61" width="179" height="17"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Good Company has started." id="6cz-Nf-vab">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RAs-hd-RiS">
+                        <rect key="frame" x="321" y="13" width="104" height="32"/>
+                        <buttonCell key="cell" type="push" title="Awesome!" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="07m-0L-9RW">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EB6-jG-NgI">
+                        <rect key="frame" x="321" y="13" width="104" height="32"/>
+                        <buttonCell key="cell" type="push" title="Awesome!" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="xbn-Zj-CdV">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <connections>
+                                <action selector="orderOut:" target="QvC-M9-y7g" id="AT2-TP-cO2"/>
+                            </connections>
+                        </buttonCell>
+                    </button>
+                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZKx-mb-HKc">
+                        <rect key="frame" x="-29" y="70" width="99" height="94"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="94" id="EeT-oE-T0w"/>
+                            <constraint firstAttribute="width" constant="99" id="SI5-GL-Xkd"/>
+                        </constraints>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="serious" id="Lei-0k-R9k"/>
+                    </imageView>
+                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G51-Ik-Q2f">
+                        <rect key="frame" x="97" y="-32" width="99" height="94"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="99" id="0OV-rH-05g"/>
+                            <constraint firstAttribute="height" constant="94" id="xMf-Hy-wyl"/>
+                        </constraints>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="serious" id="zKe-TR-EoH"/>
+                    </imageView>
+                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZnJ-IM-bk6">
+                        <rect key="frame" x="352" y="66" width="99" height="94"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="94" id="V1O-q1-9mx"/>
+                            <constraint firstAttribute="width" constant="99" id="xtM-jM-PIr"/>
+                        </constraints>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="serious" id="8dh-US-5hB"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <point key="canvasLocation" x="121" y="76.5"/>
+        </window>
+        <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AFr-4x-fQE">
+            <rect key="frame" x="0.0" y="0.0" width="99" height="94"/>
+            <constraints>
+                <constraint firstAttribute="width" constant="99" id="SYL-mq-Kgm"/>
+                <constraint firstAttribute="height" constant="94" id="rLl-fh-Yup"/>
+            </constraints>
+            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="serious" id="7ge-Wm-mvH"/>
+            <point key="canvasLocation" x="119.5" y="136"/>
+        </imageView>
+    </objects>
+    <resources>
+        <image name="serious" width="512" height="512"/>
+    </resources>
+</document>

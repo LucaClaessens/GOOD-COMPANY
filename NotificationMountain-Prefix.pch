@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'NotificationMountain' target in the 'NotificationMountain' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

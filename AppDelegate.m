@@ -30,7 +30,7 @@ int keydown;
     [self.statusBar setAction:@selector(togglePopover:)];
     
     if ([[NSUserDefaults standardUserDefaults] boolForKey:@"FirstLaunch"]) {
-        //[[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"FirstLaunch"];
+        //[[NSUserDefaults standardUserDefaults] setBool:NO forKey:@"FirstLaunch"];
         //to fake 1st launch.
     } else {
         NSLog(@"Something");
@@ -41,6 +41,14 @@ int keydown;
     
     
         
+}
+
++ (void) listenForKey {
+    [NSEvent addGlobalMonitorForEventsMatchingMask:NSKeyDownMask
+                                           handler:^(NSEvent *event){
+                                               NSLog(@"keydown: %@", event.characters);
+                                               
+                                           }];
 }
 
 - (IBAction)menuAction:(id)sender {
@@ -56,7 +64,8 @@ int keydown;
 NSTimer *mousetrack;
 
 -(IBAction)delivernotifications:(NSButton *)sender {
-    int mousemeasureinterval= 8;
+    [self performSelector:@selector(listenForKey:)];
+    int mousemeasureinterval= 20;
     [mousetrack invalidate];
     mousetrack = [NSTimer scheduledTimerWithTimeInterval:mousemeasureinterval target:self selector:@selector(trackmouse) userInfo:nil repeats:YES];
     [self hidePopover];
@@ -67,7 +76,7 @@ NSTimer *mousetrack;
 -(void) trackmouse {
     int timecount = 0;
     int happypoints = 0;
-    int mousecomparerinterval = 2;
+    int mousecomparerinterval = 8;
     int keycount = 0;
                         
     
@@ -88,9 +97,7 @@ NSTimer *mousetrack;
         [self.statusBar setImage:[NSImage imageNamed:kSadStatusIconName]];
         keycount = 0;
         keydown = 0;
-    } else if ((mouseLoc.x != mouseCompLoc.x) & (mouseLoc.y != mouseCompLoc.y))
-               //|| (keycount = 0 && keydown == 1 ))
-    {
+    } else if ((mouseLoc.x != mouseCompLoc.x) & (mouseLoc.y != mouseCompLoc.y) || (keycount = 0 && keydown == 1 )){
         [self.statusBar setImage:[NSImage imageNamed:kHappyStatusIconName]];
         happypoints ++;
         NSLog(@"You Moved the mouse!");

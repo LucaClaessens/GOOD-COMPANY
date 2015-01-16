@@ -7,15 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		702DE7FE1A56BF4700C1BBBA /* Mad1Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 702DE7FC1A56BF4700C1BBBA /* Mad1Controller.xib */; };
+		703163481A5C488C00A5B5FA /* TerribleWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 703163471A5C488C00A5B5FA /* TerribleWindow.xib */; };
+		7033E22F1A607C9000C0EEFA /* APAppLauncher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7033E22E1A607C9000C0EEFA /* APAppLauncher.m */; };
+		7033E2341A607DF100C0EEFA /* APTSettingsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7033E2331A607DF100C0EEFA /* APTSettingsManager.m */; };
+		7035C05F1A6975E1002A4B21 /* happyicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7035C05C1A6975E1002A4B21 /* happyicon.png */; };
+		7035C0601A6975E1002A4B21 /* menuicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7035C05D1A6975E1002A4B21 /* menuicon.png */; };
+		7035C0611A6975E1002A4B21 /* sadicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7035C05E1A6975E1002A4B21 /* sadicon.png */; };
+		703D56EE1A3B620000FEF2E9 /* serious.icns in Resources */ = {isa = PBXBuildFile; fileRef = 703D56ED1A3B620000FEF2E9 /* serious.icns */; };
+		703D56F01A3B63B900FEF2E9 /* serious.png in Resources */ = {isa = PBXBuildFile; fileRef = 703D56EF1A3B63B900FEF2E9 /* serious.png */; };
+		70553D4F1A5DBB7400D3BCE0 /* Christ.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70553D4E1A5DBB7300D3BCE0 /* Christ.xib */; };
+		7084A8A21A5AD50E00B54A23 /* RandomWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7084A8A11A5AD50E00B54A23 /* RandomWindow.xib */; };
+		7084A8A81A5ADE3C00B54A23 /* succes.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7084A8A71A5ADE3C00B54A23 /* succes.xib */; };
+		7084A8AA1A5B029B00B54A23 /* sleep.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7084A8A91A5B029A00B54A23 /* sleep.xib */; };
+		70BCF5B61A5C723700DADD5D /* Godzilla.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70BCF5B51A5C723700DADD5D /* Godzilla.xib */; };
+		70BCF5B81A5C78DE00DADD5D /* Windowsomething.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70BCF5B71A5C78DE00DADD5D /* Windowsomething.xib */; };
 		C038F9B415C1A3BB00F67320 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C038F9B315C1A3BB00F67320 /* Cocoa.framework */; };
 		C038F9BE15C1A3BB00F67320 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C038F9BC15C1A3BB00F67320 /* InfoPlist.strings */; };
 		C038F9C015C1A3BB00F67320 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C038F9BF15C1A3BB00F67320 /* main.m */; };
 		C038F9C415C1A3BB00F67320 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C038F9C215C1A3BB00F67320 /* Credits.rtf */; };
 		C038F9C715C1A3BB00F67320 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C038F9C615C1A3BB00F67320 /* AppDelegate.m */; };
 		C038F9CA15C1A3BC00F67320 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C038F9C815C1A3BC00F67320 /* MainMenu.xib */; };
+		C038F9D215C1B1C600F67320 /* Notifications.m in Sources */ = {isa = PBXBuildFile; fileRef = C038F9D115C1B1C600F67320 /* Notifications.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		702DE7FA1A56BF4700C1BBBA /* Mad1Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mad1Controller.h; sourceTree = "<group>"; };
+		702DE7FC1A56BF4700C1BBBA /* Mad1Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Mad1Controller.xib; sourceTree = "<group>"; };
+		703163471A5C488C00A5B5FA /* TerribleWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TerribleWindow.xib; sourceTree = "<group>"; };
+		7033E22D1A607C6600C0EEFA /* APAppLauncher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = APAppLauncher.h; path = ../APAppLauncher.h; sourceTree = "<group>"; };
+		7033E22E1A607C9000C0EEFA /* APAppLauncher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APAppLauncher.m; path = ../APAppLauncher.m; sourceTree = "<group>"; };
+		7033E2321A607DAD00C0EEFA /* APTSettingsManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APTSettingsManager.h; sourceTree = "<group>"; };
+		7033E2331A607DF100C0EEFA /* APTSettingsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APTSettingsManager.m; path = ../APTSettingsManager.m; sourceTree = "<group>"; };
+		7035C05B1A69754B002A4B21 /* APTDefinitions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APTDefinitions.h; sourceTree = "<group>"; };
+		7035C05C1A6975E1002A4B21 /* happyicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = happyicon.png; path = ../happyicon.png; sourceTree = "<group>"; };
+		7035C05D1A6975E1002A4B21 /* menuicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menuicon.png; path = ../menuicon.png; sourceTree = "<group>"; };
+		7035C05E1A6975E1002A4B21 /* sadicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sadicon.png; path = ../sadicon.png; sourceTree = "<group>"; };
+		703D56ED1A3B620000FEF2E9 /* serious.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = serious.icns; sourceTree = SOURCE_ROOT; };
+		703D56EF1A3B63B900FEF2E9 /* serious.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = serious.png; sourceTree = SOURCE_ROOT; };
+		70553D4E1A5DBB7300D3BCE0 /* Christ.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Christ.xib; sourceTree = "<group>"; };
+		7084A8A11A5AD50E00B54A23 /* RandomWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RandomWindow.xib; sourceTree = "<group>"; };
+		7084A8A71A5ADE3C00B54A23 /* succes.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = succes.xib; path = ../succes.xib; sourceTree = "<group>"; };
+		7084A8A91A5B029A00B54A23 /* sleep.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = sleep.xib; sourceTree = "<group>"; };
+		70BCF5B51A5C723700DADD5D /* Godzilla.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Godzilla.xib; sourceTree = "<group>"; };
+		70BCF5B71A5C78DE00DADD5D /* Windowsomething.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Windowsomething.xib; sourceTree = "<group>"; };
 		C038F9AF15C1A3BB00F67320 /* NotificationMountain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotificationMountain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C038F9B315C1A3BB00F67320 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		C038F9B615C1A3BB00F67320 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -29,6 +64,8 @@
 		C038F9C515C1A3BB00F67320 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C038F9C615C1A3BB00F67320 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C038F9C915C1A3BC00F67320 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C038F9D015C1B1C600F67320 /* Notifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Notifications.h; path = ../Notifications.h; sourceTree = "<group>"; };
+		C038F9D115C1B1C600F67320 /* Notifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Notifications.m; path = ../Notifications.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +80,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7033E2361A608E3A00C0EEFA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C038F9C815C1A3BC00F67320 /* MainMenu.xib */,
+				70553D4E1A5DBB7300D3BCE0 /* Christ.xib */,
+				7084A8A91A5B029A00B54A23 /* sleep.xib */,
+				7084A8A71A5ADE3C00B54A23 /* succes.xib */,
+				702DE7FC1A56BF4700C1BBBA /* Mad1Controller.xib */,
+				7084A8A11A5AD50E00B54A23 /* RandomWindow.xib */,
+				703163471A5C488C00A5B5FA /* TerribleWindow.xib */,
+				70BCF5B51A5C723700DADD5D /* Godzilla.xib */,
+				70BCF5B71A5C78DE00DADD5D /* Windowsomething.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		C038F9A415C1A3BB00F67320 = {
 			isa = PBXGroup;
 			children = (
@@ -82,9 +135,22 @@
 		C038F9B915C1A3BB00F67320 /* NotificationMountain */ = {
 			isa = PBXGroup;
 			children = (
+				7035C05B1A69754B002A4B21 /* APTDefinitions.h */,
 				C038F9C515C1A3BB00F67320 /* AppDelegate.h */,
 				C038F9C615C1A3BB00F67320 /* AppDelegate.m */,
-				C038F9C815C1A3BC00F67320 /* MainMenu.xib */,
+				7033E2321A607DAD00C0EEFA /* APTSettingsManager.h */,
+				7033E2331A607DF100C0EEFA /* APTSettingsManager.m */,
+				7033E22D1A607C6600C0EEFA /* APAppLauncher.h */,
+				7033E22E1A607C9000C0EEFA /* APAppLauncher.m */,
+				702DE7FA1A56BF4700C1BBBA /* Mad1Controller.h */,
+				C038F9D015C1B1C600F67320 /* Notifications.h */,
+				C038F9D115C1B1C600F67320 /* Notifications.m */,
+				7033E2361A608E3A00C0EEFA /* Views */,
+				703D56ED1A3B620000FEF2E9 /* serious.icns */,
+				7035C05C1A6975E1002A4B21 /* happyicon.png */,
+				7035C05D1A6975E1002A4B21 /* menuicon.png */,
+				7035C05E1A6975E1002A4B21 /* sadicon.png */,
+				703D56EF1A3B63B900FEF2E9 /* serious.png */,
 				C038F9BA15C1A3BB00F67320 /* Supporting Files */,
 			);
 			path = NotificationMountain;
@@ -128,7 +194,7 @@
 		C038F9A615C1A3BB00F67320 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Gabriel Pierannunzi";
 			};
 			buildConfigurationList = C038F9A915C1A3BB00F67320 /* Build configuration list for PBXProject "NotificationMountain" */;
@@ -153,9 +219,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7084A8A21A5AD50E00B54A23 /* RandomWindow.xib in Resources */,
+				7084A8AA1A5B029B00B54A23 /* sleep.xib in Resources */,
+				7084A8A81A5ADE3C00B54A23 /* succes.xib in Resources */,
+				702DE7FE1A56BF4700C1BBBA /* Mad1Controller.xib in Resources */,
+				7035C0611A6975E1002A4B21 /* sadicon.png in Resources */,
+				703163481A5C488C00A5B5FA /* TerribleWindow.xib in Resources */,
 				C038F9BE15C1A3BB00F67320 /* InfoPlist.strings in Resources */,
+				703D56EE1A3B620000FEF2E9 /* serious.icns in Resources */,
+				7035C05F1A6975E1002A4B21 /* happyicon.png in Resources */,
 				C038F9C415C1A3BB00F67320 /* Credits.rtf in Resources */,
 				C038F9CA15C1A3BC00F67320 /* MainMenu.xib in Resources */,
+				7035C0601A6975E1002A4B21 /* menuicon.png in Resources */,
+				703D56F01A3B63B900FEF2E9 /* serious.png in Resources */,
+				70BCF5B81A5C78DE00DADD5D /* Windowsomething.xib in Resources */,
+				70BCF5B61A5C723700DADD5D /* Godzilla.xib in Resources */,
+				70553D4F1A5DBB7400D3BCE0 /* Christ.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +247,9 @@
 			files = (
 				C038F9C015C1A3BB00F67320 /* main.m in Sources */,
 				C038F9C715C1A3BB00F67320 /* AppDelegate.m in Sources */,
+				7033E22F1A607C9000C0EEFA /* APAppLauncher.m in Sources */,
+				7033E2341A607DF100C0EEFA /* APTSettingsManager.m in Sources */,
+				C038F9D215C1B1C600F67320 /* Notifications.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +287,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -234,7 +315,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -255,6 +335,7 @@
 		C038F9CE15C1A3BC00F67320 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NotificationMountain/NotificationMountain-Prefix.pch";
@@ -267,6 +348,7 @@
 		C038F9CF15C1A3BC00F67320 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NotificationMountain/NotificationMountain-Prefix.pch";
@@ -295,6 +377,7 @@
 				C038F9CF15C1A3BC00F67320 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

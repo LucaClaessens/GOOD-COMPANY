@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6254"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
+            <windowStyleMask key="styleMask" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="0.0" y="114" width="318" height="159"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1280" height="778"/>
+            <view key="contentView" id="EiT-Mj-1SZ">
+                <rect key="frame" x="0.0" y="0.0" width="318" height="159"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="QkD-QK-aRh">
+                        <rect key="frame" x="67" y="71" width="184" height="17"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="just checking if you're alive.." id="1F5-eq-vaj">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Nfa-k9-6LM">
+                        <rect key="frame" x="184" y="13" width="120" height="32"/>
+                        <buttonCell key="cell" type="push" title="No I'm dead." bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="9d6-k8-XBc">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="orderOut:" target="QvC-M9-y7g" id="v4L-Aw-rAE"/>
+                        </connections>
+                    </button>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="c31-Yu-QfW">
+                        <rect key="frame" x="14" y="13" width="156" height="32"/>
+                        <buttonCell key="cell" type="push" title="Yes I'm alive, chill." bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="pP2-aK-Pvs">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="orderOut:" target="QvC-M9-y7g" id="bjI-wl-DF4"/>
+                        </connections>
+                    </button>
+                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GXP-92-KvO">
+                        <rect key="frame" x="-22" y="78" width="99" height="94"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="99" id="UrR-gz-PDP"/>
+                            <constraint firstAttribute="height" constant="94" id="eW8-OU-nj4"/>
+                        </constraints>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="serious" id="89B-Ha-xDd"/>
+                    </imageView>
+                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pAR-tY-XeE">
+                        <rect key="frame" x="265" y="-17" width="99" height="94"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="99" id="95a-kn-Um2"/>
+                            <constraint firstAttribute="height" constant="94" id="U5p-Eu-6L4"/>
+                        </constraints>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="serious" id="zBu-dT-iQf"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="pAR-tY-XeE" firstAttribute="leading" secondItem="QkD-QK-aRh" secondAttribute="trailing" constant="16" id="1nh-pc-chD"/>
+                    <constraint firstAttribute="trailing" secondItem="Nfa-k9-6LM" secondAttribute="trailing" constant="20" symbolic="YES" id="AVd-Ng-ctH"/>
+                    <constraint firstItem="pAR-tY-XeE" firstAttribute="centerY" secondItem="c31-Yu-QfW" secondAttribute="centerY" id="JtF-iB-fHv"/>
+                    <constraint firstAttribute="trailing" secondItem="pAR-tY-XeE" secondAttribute="trailing" constant="-46" id="R1D-al-4qv"/>
+                    <constraint firstItem="GXP-92-KvO" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="-22" id="RSW-ZA-qW9"/>
+                    <constraint firstItem="GXP-92-KvO" firstAttribute="top" secondItem="EiT-Mj-1SZ" secondAttribute="top" constant="-13" id="Rav-er-2Cc"/>
+                    <constraint firstItem="c31-Yu-QfW" firstAttribute="top" secondItem="GXP-92-KvO" secondAttribute="bottom" constant="37" id="fhq-MH-73O"/>
+                    <constraint firstItem="Nfa-k9-6LM" firstAttribute="top" secondItem="QkD-QK-aRh" secondAttribute="bottom" constant="30" id="mhX-A7-zoz"/>
+                    <constraint firstItem="Nfa-k9-6LM" firstAttribute="leading" secondItem="c31-Yu-QfW" secondAttribute="trailing" constant="26" id="oht-yk-KJV"/>
+                    <constraint firstItem="pAR-tY-XeE" firstAttribute="centerY" secondItem="Nfa-k9-6LM" secondAttribute="centerY" id="zjP-d2-rlk"/>
+                </constraints>
+            </view>
+            <point key="canvasLocation" x="199" y="140.5"/>
+        </window>
+    </objects>
+    <resources>
+        <image name="serious" width="512" height="512"/>
+    </resources>
+</document>
